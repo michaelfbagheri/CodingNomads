@@ -8,3 +8,10 @@ Result: #ore python progra##ing please
 
 '''
 
+input_String = input('please input your string of choice: ')
+Character_of_choice = input('please input your character of choice: ')
+
+print(input_String[0])
+
+input_String = input_String.replace(input_String[0],Character_of_choice)
+print(input_String)

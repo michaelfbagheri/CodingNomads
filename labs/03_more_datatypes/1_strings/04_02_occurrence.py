@@ -7,3 +7,11 @@ Letter input: o
 Result: 4
 
 '''
+
+
+input_String = input('please input your string of choice: ')
+character_of_choice = input('please input your character of choice: ')
+
+
+
+print('index of ', character_of_choice, ' is: ' , input_String.index(character_of_choice))
